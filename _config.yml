@@ -1,30 +1,30 @@
 # 全局配置文件
 # Site settings
-title: Yezhaoyan Blog
-SEOTitle: 叶昭言的博客 | ZY Blog
-header-img: img/post-bg-desk.jpg
+title: Yezhaoyan Blog              #博客的标题
+SEOTitle: 叶昭言的博客 | ZY Blog    #浏览器显示的标签
+header-img: img/post-bg-desk.jpg   #显示在首页的背景图片
 email: ye_zhaoyan@163.com
-description: "在."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://yezhaoyan.github.io"          # your host, for absolute URL
+description: "My blog"                  #网站介绍
+keyword: ""
+url: "http://yezhaoyan.github.io"          # your host, for absolute URL 博客地址
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/yezhaoyan/yezhaoyan.github.io.git" # you code repository
 
-# Sidebar settings
+# Sidebar settings 侧边栏设置
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "格言!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "格言!"      #侧边栏，想说啥呢
+sidebar-avatar: /img/avatar-m      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+weibo_username:     
+zhihu_username:     
+github_username:    
+facebook_username:  
+jianshu_username:   
+twitter_username:  
 
 
 
@@ -56,9 +56,9 @@ kramdown:
 
 
 
-# 评论系统
+# 评论系统  博客中使用的是Disqus评价系统。在国内加载慢，所以用新集成的Gitalk评价插件，如下
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+# disqus_username: 
 
 # Gitalk
 gitalk:
@@ -75,10 +75,10 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+ba_track_id:      #没有国内手机号，注册不了！！
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+ga_track_id: 'UA-137475981-1'            # Format: UA-xxxxxx-xx  Ye Zhaoyan Blog
 ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
@@ -97,19 +97,19 @@ service-worker: true
 
 
 
-# Friends
-friends: [
-    {
-        title: "WY",
-        href: "http://zhengwuyang.com"
-    },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
-    }
-]
+# Friends                    想加的时候再加吧
+#friends: [
+#  {
+#        title: "WY",
+#       href: "http://zhengwuyang.com"
+#    },{
+#        title: "简书·BY",
+#        href: "http://www.jianshu.com/u/e71990ada2fd"
+#    },{
+#        title: "Apple",
+#        href: "https://apple.com"
+#    },{
+#        title: "Apple Developer",
+#        href: "https://developer.apple.com/"
+#    }
+#]
